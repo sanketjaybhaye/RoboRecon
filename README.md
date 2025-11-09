@@ -1,3 +1,7 @@
+[![Author](https://img.shields.io/badge/Author-Sanket%20Jaybhaye-blue)](https://github.com/)
+[![Version](https://img.shields.io/badge/Version-1-green)]()
+[![License](https://img.shields.io/badge/License-Apache-yellow)]()
+
 > Advanced Reconnaissance Intelligence Framework  
 > Developed by **Sanket Jaybhaye**
 
@@ -55,4 +59,5 @@ Notes:
 MIT License © 2025 MrRobot
 
 ---
+
 
