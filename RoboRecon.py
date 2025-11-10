@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-RoboRecon v3 - Automated Robots.txt Intelligence Scanner
-Author: MrRobot
+RoboRecon v2 - Automated Robots.txt Intelligence Scanner
+Author: Sanket Jaybhaye
 Purpose: Fetch and analyze robots.txt for recon intelligence
 """
 
@@ -18,7 +18,7 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
-USER_AGENT = "RoboRecon/3.0 (+https://github.com/mrrobot)"
+USER_AGENT = "RoboRecon/3.0 (+https://github.com/sanketjaybhaye)"
 OUTPUT_DIR = "recon_reports"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -117,3 +117,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
