@@ -56,8 +56,9 @@ Notes:
 
 ## License
 
-MIT License © 2025 MrRobot
+Apache Version 2.0 License © 2025 Sanket Jaybhaye
 
 ---
+
 
 
