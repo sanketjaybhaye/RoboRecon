@@ -1,5 +1,5 @@
 [![Author](https://img.shields.io/badge/Author-Sanket%20Jaybhaye-blue)](https://github.com/)
-[![Version](https://img.shields.io/badge/Version-2.0-green)]()
+[![Version](https://img.shields.io/badge/Version-3.0-green)]()
 [![License](https://img.shields.io/badge/License-Apache-yellow)]()
 
 > Advanced Reconnaissance Intelligence Framework  
@@ -59,6 +59,7 @@ Notes:
 Apache Version 2.0 License © 2025 Sanket Jaybhaye
 
 ---
+
 
 
 
