@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 <<<<<<< HEAD
-RoboRecon v5 - Final Reconnaissance Intelligence Framework
-Author: MrRobot
 =======
 RoboRecon v2 - Automated Robots.txt Intelligence Scanner
 Author: Sanket Jaybhaye
