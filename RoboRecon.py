@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """
+<<<<<<< HEAD
 RoboRecon v5 - Final Reconnaissance Intelligence Framework
 Author: MrRobot
+=======
+RoboRecon v2 - Automated Robots.txt Intelligence Scanner
+Author: Sanket Jaybhaye
+Purpose: Fetch and analyze robots.txt for recon intelligence
+>>>>>>> 04380b9a126874a84ac7ad37f9f67d58f12e1c59
 """
 
 import requests, re, argparse, json, os, time, random, threading
@@ -11,7 +17,11 @@ from lxml import etree
 
 init(autoreset=True)
 
+<<<<<<< HEAD
 USER_AGENT = "RoboRecon/5.0 (+https://github.com/mrrobot)"
+=======
+USER_AGENT = "RoboRecon/3.0 (+https://github.com/sanketjaybhaye)"
+>>>>>>> 04380b9a126874a84ac7ad37f9f67d58f12e1c59
 OUTPUT_DIR = "recon_reports"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -149,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
