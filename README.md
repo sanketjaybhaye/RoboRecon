@@ -1,6 +1,8 @@
 [![Author](https://img.shields.io/badge/Author-Sanket%20Jaybhaye-blue)](https://github.com/)
-[![Version](https://img.shields.io/badge/Version-3.0-green)]()
+[![Version](https://img.shields.io/badge/Version-6.0-green)]()
 [![License](https://img.shields.io/badge/License-Apache-yellow)]()
+# 🤖 RoboRecon v6.0 — Smart Recon Upgrade
+---
 
 > Advanced Reconnaissance Intelligence Framework  
 > Developed by **Sanket Jaybhaye**
@@ -25,25 +27,47 @@ This tool is perfect for **bug bounty hunters**, **ethical hackers**, and **pent
 
 ---
 
-## 🧩 Installation
-Use the included **setup.sh** script to create an isolated environment and install dependencies safely.
+## What’s new in v6.0
+- Smart sitemap discovery (checks common sitemap paths automatically)  
+- Gzip sitemap support (`*.xml.gz`)  
+- Small built-in hidden-path wordlist (fast, low-noise) with multi-threaded checks  
+- Automatic JSON, TXT, CSV and optional interactive HTML report generation  
+- `--deep` mode runs sitemap discovery + wordlist checks automatically
 
-```bash
-git clone https://github.com/yourname/RoboRecon.git
-cd RoboRecon
-chmod +x setup.sh
-./setup.sh
-
+---
 
 ## Requirements
-
-Recommended inside a virtual environment (Kali-safe):
-
 ```bash
-python3 -m venv .venv
+pip install requests lxml colorama
+```
+
+## Quick install (recommended)
+```bash
+./setup.sh
 source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install requests "requests[socks]" colorama lxml
+```
+___
+
+## Example :
+```bash
+# Basic run (robots.txt parsing only)
+python roboRecon_v6.py -u example.com
+
+# Deep scan: sitemap discovery + hidden path guessing
+python roboRecon_v6.py -u example.com --deep --html-report --export-csv --open
+
+# Multi-target from file
+python roboRecon_v6.py targets.txt --deep --threads 6
+```
+## How to use (quick)
+
+1. Save the three files into your RoboRecon folder.
+2. chmod +x setup.sh then ./setup.sh
+3. source .venv/bin/activate
+
+Run a deep scan:
+```bash
+python roboRecon_v6.py -u www.python.org --deep --html-report --export-csv --open
 ```
 
 Notes:
@@ -59,6 +83,7 @@ Notes:
 Apache Version 2.0 License © 2025 Sanket Jaybhaye
 
 ---
+
 
 
 
