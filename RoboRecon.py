@@ -4,7 +4,7 @@ RoboRecon v6.0 - Smart Recon Upgrade
 - smart sitemap discovery (/sitemap.xml, sitemap_index.xml, sitemap*.xml, sitemap.txt)
 - small built-in wordlist for hidden URL guessing (fast, low-noise)
 - keeps previous features (robots parsing, sitemap crawl, gzip, html report)
-Author: MrRobot
+Author: Sanket Jaybhaye
 """
 import argparse, os, re, json, time, random, threading, csv, webbrowser, io, gzip, html, sys
 from datetime import datetime
@@ -18,7 +18,7 @@ except Exception:
     print("Missing dependencies. Use setup.sh to install requests, lxml, colorama.")
     raise
 
-USER_AGENT = "RoboRecon/6.0 (+https://github.com/mrrobot)"
+USER_AGENT = "RoboRecon/6.0 (+https://github.com/sanketjaybhaye)"
 BASE_OUTPUT = "recon_reports"
 os.makedirs(BASE_OUTPUT, exist_ok=True)
 lock = threading.Lock()
