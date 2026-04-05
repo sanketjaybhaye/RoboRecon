@@ -1,0 +1,35 @@
+# PyInstaller files
+/dist/
+/build/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Recon output
+recon_reports/
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit keys!)
+secrets.json
+*.key
+*.pem
+.env
