@@ -202,7 +202,7 @@ This tool is designed for **ethical hacking, bug bounty hunting, and authorized 
 
 ## 📜 License
 
-Apache License 2.0 © 2025 Sanket Jaybhaye
+Apache License 2.0 © 2026 Sanket Jaybhaye
 
 ---
 
