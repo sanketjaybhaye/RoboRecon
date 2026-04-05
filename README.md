@@ -1,5 +1,4 @@
 [![Author](https://img.shields.io/badge/Author-Sanket%20Jaybhaye-blue)](https://github.com/sanketjaybhaye)
-[![Enhanced by](https://img.shields.io/badge/Enhanced%20by-Elliot-red)](https://github.com/)
 [![Version](https://img.shields.io/badge/Version-8.0%20ULTIMATE-purple)]()
 [![License](https://img.shields.io/badge/License-Apache-yellow)]()
 
@@ -11,7 +10,7 @@
 >
 > **20 modules** | **4 profiles** | **SQLite tracking** | **Interactive dashboards**
 >
-> Original by **Sanket Jaybhaye** | Enhanced by **Elliot**
+> Original by **Sanket Jaybhaye**
 
 ---
 
